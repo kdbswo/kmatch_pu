@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">kmatch</string>
+    <string name="match_list">경기일정</string>
+</resources>

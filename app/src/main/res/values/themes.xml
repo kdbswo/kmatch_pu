@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Kmatch" parent="android:Theme.Material.Light.NoActionBar">
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+        <item name="android:colorPrimary">@color/mainColor</item>
+        <item name="android:colorPrimaryDark">@color/mainColor</item>
+    </style>
+
+    <style name="Theme.Kmatch.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="postSplashScreenTheme">@style/Theme.Kmatch</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/animated_logo</item>
+    </style>
+</resources>
